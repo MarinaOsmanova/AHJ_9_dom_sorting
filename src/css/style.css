@@ -1,0 +1,15 @@
+body {
+  background: #eee;
+  text-align: center;
+}
+.data {
+  border-collapse: collapse;
+}
+.data td, .data th {
+  border: 1px solid #666;
+  padding: 6px;
+  text-align: left;
+}
+.data.td:nth-child(n+2) {
+  text-align: center;
+}
